@@ -18,7 +18,7 @@ int multi = numberA;
 
 for (int i = 1; i < numberB; i++)
 {
-    multi = multi * numberA;
+    multi *= numberA; // то же самое, что и multi = multi * numberA
 }
 
 Console.WriteLine($"Число {numberA} в степени {numberB} равняется {multi}");
